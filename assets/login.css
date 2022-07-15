@@ -1,0 +1,30 @@
+body {
+    background-color: #16191b;
+    height: 100vh;
+}
+
+.container {
+    height: calc(100% - 100px);
+}
+
+.container input {
+    background-color: transparent;
+    color: lightgray;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+.container .form-label {
+    color: lightgray;
+}
+
+.container input:focus {
+    background-color: transparent;
+    color: lightgray;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid lightgray;
+}

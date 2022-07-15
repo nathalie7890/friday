@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111817;
+    color: #e6e6e6;
+    height: 100vh;
+}
+
+.main {
+    height: 90%;
+}

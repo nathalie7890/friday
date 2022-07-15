@@ -1,0 +1,175 @@
+/* register form */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b2524;
+    height: 100vh;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.profile-image {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.register-right .register-right i {
+    position: absolute;
+    right: 35px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+
+.register-right input,
+.register-right select {
+    color: white;
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #575f5d;
+}
+
+.register-right option {
+    color: black !important;
+}
+
+.register-right label {
+    color: #a5a5a5;
+}
+
+.register-right input:focus,
+.register-right select:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+.register-right .form-control {
+    color: white;
+}
+
+.register-right .interest-caption,
+.gender-caption {
+    color: #e6e6e6;
+}
+
+.register-right .interest-caption p {
+    font-size: 1.5rem;
+    color: #7a7878;
+}
+
+.register-left {
+    height: 100vh;
+    background-image: url('../public/register3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.register-right {
+    background-color: #16191b;
+}
+
+.register-left .caption {
+    height: 100%;
+    color: #e6e6e6;
+
+}
+
+.register-left .caption h1 {
+    text-shadow: 1px 1px 5px #16191b;
+}
+
+.interest,
+.register-form {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.gender {
+    height: 100vh;
+}
+
+.gender-container {
+    height: 100%;
+}
+
+
+.interest::-webkit-scrollbar,
+.register-form::-webkit-scrollbar {
+    display: none;
+}
+
+.interest-pill:hover,
+.gender-pill:hover {
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.interest-pill,
+.gender-pill {
+    color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.gender-pill {
+    width: 20%;
+}
+
+.interest-pill input,
+.gender-pill input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.interest-pill div,
+.gender-pill div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=checkbox]:checked~div,
+input[type=radio]:checked~div {
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.interest-counter {
+    color: gray;
+    background-color: #1b2524;
+}
+
+@media (max-width: 996px) {
+    .register-left {
+        height: 40vh;
+    }
+
+    .register-right {
+        height: 60%;
+    }
+
+    .gender-container {
+        display: flex;
+        justify-content: start !important;
+    }
+}

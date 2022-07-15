@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16191b;
+    color: #9d9d9d;
+    height: 100vh;
+}
+
+.main {
+    height: calc(100% - 100px);
+}
+
+.main .card {
+    border-radius: 20px;
+}
+
+.main .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

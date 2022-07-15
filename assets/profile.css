@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16191b;
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile {
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.profile .card {
+    width: 60%;
+}
+
+.main,
+.edit-profile {
+    width: 60%;
+    color: #9d9d9d;
+    background-color: #4a4a4a3d;
+    border-radius: 15px;
+    /* border: 3px solid rgba(225, 225, 225, 0.1); */
+}
+
+.main .profile-img,
+.edit-profile .profileImg {
+    border-radius: 10px;
+}
+
+.edit-profile .position-absolute {
+    right: 30px;
+    bottom: 10px;
+}
+
+.edit-profile .position-absolute button {
+    text-shadow: 5px 5px 10px #000000;
+}
+
+
+
+.edit-profile input,
+.edit-profile select {
+    background: transparent;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+}
+
+.edit-profile select option {
+    color: black;
+}
+
+.edit-profile input:focus,
+.edit-profile select:focus {
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    color: white;
+
+}
+
+
+@media (max-width: 1400px) {
+
+    .main,
+    .edit-profile {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main .profile-img,
+    .edit-profile .profile-img {
+        height: 350px !important;
+    }
+}
