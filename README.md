@@ -8,5 +8,5 @@ Online dating website that uses HTML, CSS, Bootstrap, JavaScript, PHP & SQL.
 3. Real-time chat
 
 ![alt text](https://github.com/nathalie7890/friday/blob/main/assets/friday_signup.png)
-![alt text](https://github.com/nathalie7890/friday/blob/main/assets/login.css)
+![alt text](https://github.com/nathalie7890/friday/blob/main/assets/friday_login.png)
 ![alt text](https://github.com/nathalie7890/friday/blob/main/assets/friday-chat.png)
